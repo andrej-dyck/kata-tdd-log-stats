@@ -35,6 +35,6 @@ jobs:
       # Publish Detekt Results
       - name: Upload Detekt SARIF to Github
         uses: github/codeql-action/upload-sarif@v1
-        if: always()
+        if: always() && hashFiles('build/reports/detekt/detekt.sarif') != ''
         with:
           sarif_file: build/reports/detekt/detekt.sarif
