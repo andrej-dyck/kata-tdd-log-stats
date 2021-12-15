@@ -12,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    implementation("co.touchlab:kermit:1.0.2")
     // JUnit 5
     testImplementation(platform("org.junit:junit-bom:5.8.1"))
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
