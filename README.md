@@ -24,7 +24,25 @@ Stats for 15.12.2021
   /profile avg: 150ms total: 17x failures: 31x
 ```
 
-## Build with Gradle
+## Generate a Lot of Logs (if you need it)
+
+The branch `feature/generate-logs` comprises a script that writes a log file with ten-thousands of randomly generated log entries. A use for it could be performance tests. Execute the `main` and it will create the `resources/logs.log` file.
+
+## Non-TDD Implementation
+
+The branch `feature/non-tdd-cron-job` comprises an ugly implementation that is (on purpose) not testable. You could use this kata also as a refactoring training.
+
+## Tool of Choice
+
+This project is set up for [Kotlin (JVM)](https://kotlinlang.org/docs/home.html) with [JUnit 5](https://junit.org/junit5/docs/current/user-guide/) and [AssertJ](https://assertj.github.io/doc/). Further, there is a static analyzer [Detekt](https://detekt.github.io/detekt/) with some strict rules.
+
+However, this kata is not bound to any programming language and tool; so chose your own toolset of your liking.
+
+### Build with Gradle
 ```
 ./gradlew build
 ```
+
+## Feedback
+
+Last but not least, you can submit a pull request to this repository and ask me for feedback. 
