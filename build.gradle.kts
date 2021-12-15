@@ -3,7 +3,7 @@ plugins {
     id("io.gitlab.arturbosch.detekt").version("1.19.0")
 }
 
-group = "andrej.dyck.tdd.workshop"
+group = "ad.workshop.tdd.example"
 version = "1.0"
 
 repositories {

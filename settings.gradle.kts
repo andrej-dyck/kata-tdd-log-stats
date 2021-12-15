@@ -1,1 +1,1 @@
-rootProject.name = "tdd-workshop"
+rootProject.name = "TDD Log-Stats Cron-Job Kata"
